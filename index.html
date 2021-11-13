@@ -1,0 +1,77 @@
+<html>
+
+<head>
+  <title>Identificatione</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+</head>
+
+<body background="background.jpg">
+  <center>
+    <h3 class="heading" >Namank Guests </h3>
+    <br>
+    <br>
+    <div class="div">
+        <label class="label1">Enter code below</label>
+        <br>
+        <input  id="code_box" class="btn btn-info" type="write code">
+        <br>
+        <button class="button" onclick="check()">Identify</button>
+    </div>
+    <br>
+    <div class="div">
+      <label class="label1">Code verification</label>
+      <br>
+      <label id="code_verified" class="btn btn-info labtest"></label>
+      <br>
+      <br>
+      <label id="no_of_people" class="btn btn-info labtest"></label>
+    
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="div">
+    <label class="label1">Add extra people</label>
+    <br>
+    <span><label id="person_1" class="btn btn-info " class="btn btn-info">Add person</label> <input id="code_for_person1" type="text" class="textt"></span>
+    <br>
+    <button id="adding_person_1" onclick="add_person_1()" class="btn btn-info">Confirm addition of person</button>
+    <br>
+  </div>
+  <br>
+<div class="div">
+  <label class="label1">Person added</label>
+  <br>
+  <label id="code_for_person_added" class="btn btn-info labtest"></label>
+  <br>
+  <br>
+  <label id="no_of_people_allowed" class="btn btn-info labtest"></label>
+    
+    
+</div>  
+<br>
+<br>
+<br>
+<br>
+    
+    
+
+  </center>
+  
+  
+<script src="main.js"></script>
+</body>
+
+
+</html>
